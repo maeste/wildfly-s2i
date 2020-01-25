@@ -11,12 +11,7 @@ modules:
               ref: 0.37.1
           - name: wildfly-cekit-modules
             git:
-              url: https://github.com/wildfly/wildfly-cekit-modules
-              ref: master
+              url: https://github.com/jfdenise/wildfly-cekit-modules
+              ref: wf19-integration
           - name: wildfly-s2i-modules
             path: ../wildfly-modules
-
-artifacts:
-  - name: maven-repo.zip
-    # update with the path to your repo.
-    path: ../tools/maven-repo.zip
